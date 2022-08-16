@@ -1,38 +1,160 @@
-.App {
-  text-align: center;
+/* Custom Properties */
+:root {
+  --black: #1C1C1C;
+  --blue: #12859C;
+  --gold: #AF9221;
+  --gold2: #CAAA2E;
+  --lightgold: #FFF3CD;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+html {
+  scroll-behavior: smooth;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body {
+  background-color: var(--black);
+  color: var(--lightgold);
+  font-family: 'DM Sans', sans-serif;
 }
 
-.App-header {
-  background-color: #282c34;
+.page-body {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+.container {
+  max-width: 100%;
+}
+
+h4 {
+  margin-bottom: 0;
+}
+
+
+/* Navigation */
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background-color: #1c1c1cbd;
+}
+
+.nav-menu {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+}
+
+.nav-menu a, .nav-logo a {
+  text-decoration: none;
+  color: var(--gold2);
+}
+
+.nav-menu a {
+  padding-left: 10px;
+}
+
+/* .hero {
+
+} */
+
+/* Hero Section */
+
+.container-hero {
   min-height: 100vh;
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
+}
+
+.border {
+  border: 2px solid var(--gold2);
+  padding: 5px;
+}
+
+.profile {
+  max-width: 400px;
+}
+
+/* About & Skills */
+
+.about, .skills {
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  margin-bottom: 100px;
 }
 
-.App-link {
-  color: #61dafb;
+.container-about {
+  display: flex;
+  justify-content: flex-start;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.bio {
+  /* max-width: 50%; */
+  flex-basis: 75%;
+}
+
+.skills-copy {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.skills-copy > * {
+  flex-basis: 100%;
+}
+
+i {
+  font-size:xx-large;
+}
+
+.icons {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding-left: 0;
+  margin-bottom: 2em;
+}
+
+.icons li {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px solid rgba(0,0,0,.125);
+  border-radius: 5%;
+  margin: 20px 5px 5px 5px;
+  width: 130px;
+  height: 100px;
+  align-items: center;
+  font-size: 13px;
+}
+
+li span {
+  margin-top: 5px;
+}
+
+@media only screen and (max-width: 800px) {
+  .bio{
+    flex-basis: 100%;
+  } 
+}
+
+@media only screen and (max-width: 512px) {
+  .skills-copy{
+    flex-wrap: wrap;
   }
-  to {
-    transform: rotate(360deg);
+
+  .skills-logos {
+    display: none;
   }
 }
