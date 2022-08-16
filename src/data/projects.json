@@ -1,30 +1,38 @@
 [
     {
         "title": "Trip Tips",
-        "description": "",
-        "stack": [],
-        "link": "",
-        "github": ""
+        "description": "A full-stack single-page application built with the MERN stack (MongoDB, Express, React, Node.js) with RESTful architecture and full CRUD functionality. I developed our image upload functionality via Cloudinary and created the Country model, populating the collection with sourced data. On the front end, I integrated image upload, created a Country filter on browsing and used our Country data to populate form fields, with users able to add a new city which would be added to the database.",
+        "stack": ["MongoDB", "Express", "ReactJS", "NodeJS"],
+        "links": [
+            {"type": "app", "url": "https://gatriptips.herokuapp.com/"},
+            {"type": "github", "url": "https://github.com/MarcUsher/ga-sei-project4-backend"}
+        ]
     },
     {
         "title": "Cake Sera Sera",
-        "description": "",
-        "stack": [],
-        "link": "",
-        "github": ""
+        "description": "A full-stack application built using Python, Django and a PostgreSQL database featuring full CRUD functionality. I led on the back-end and front-end functionality around user authentication and authorisation, and helped solve a number of other challenges through pair-programming.",
+        "stack": ["PostgreSQL", "Django", "Python", "Bulma"],
+        "links": [
+            {"type": "app", "url": "https://cakeprojectapp.herokuapp.com/"},
+            {"type": "github", "url": "https://github.com/MarcUsher/ga-sei-project3"}
+        ]
     },
     {
         "title": "London Teams",
-        "description": "",
-        "stack": [],
-        "link": "",
-        "github": ""
+        "description": "A full-stack application created with Node.js, Express and a MongoDB database featuring full CRUD functionality. As team lead, I led on all our back-end functionality, including creation and linking of our models and the user authentication and authorisation functionality, as well as leading daily stand ups, managing our team workflow and assigning tasks, and leading on integrating Bootstrap for responsive and design elements.",
+        "stack": ["MongoDB", "Express", "NodeJS", "Bootstrap"],
+        "links": [
+            {"type": "app", "url": "https://londonteams.herokuapp.com/"},
+            {"type": "github", "url": "https://github.com/MarcUsher/ga-sei-project2"}
+        ]
     },
     {
         "title": "Push Fight",
-        "description": "",
-        "stack": [],
-        "link": "",
-        "github": ""
+        "description": "A fully front-end single-page game built with HTML, CSS (including Flexbox), JavaScript and jQuery which developed my skills and taught me to read and understand documentation",
+        "stack": ["HTML5", "CSS3", "JavaScript", "jQuery"],
+        "links": [
+            {"type": "app", "url": "https://marcusher.github.io/ga-sei-project1/"},
+            {"type": "github", "url": "https://github.com/MarcUsher/ga-sei-project1"}
+        ]
     }
 ]

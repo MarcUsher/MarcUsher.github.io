@@ -23,13 +23,25 @@ body {
   padding: 15px;
 }
 
+a {
+  text-decoration: none;
+}
+
 .container {
   max-width: 100%;
 }
 
-h4 {
+h3 {
   margin-bottom: 0;
 }
+
+/* button {
+  background-color: var(--gold2);
+}
+
+button a {
+  color: var(--black);
+} */
 
 
 /* Navigation */
@@ -40,7 +52,7 @@ nav {
   align-items: center;
   position: sticky;
   top: 0;
-  z-index: 10;
+  /* z-index: 10; */
   background-color: #1c1c1cbd;
 }
 
@@ -51,17 +63,12 @@ nav {
 }
 
 .nav-menu a, .nav-logo a {
-  text-decoration: none;
   color: var(--gold2);
 }
 
 .nav-menu a {
   padding-left: 10px;
 }
-
-/* .hero {
-
-} */
 
 /* Hero Section */
 
@@ -75,7 +82,7 @@ nav {
 
 .border {
   border: 2px solid var(--gold2);
-  padding: 5px;
+  padding: 7px;
 }
 
 .profile {
@@ -84,28 +91,38 @@ nav {
 
 /* About & Skills */
 
-.about, .skills {
+.about, .skills, .interests, .contact, .projects {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  margin-top: 50px;
-  margin-bottom: 100px;
+  margin-top: 10px;
+  margin-bottom: 200px;
 }
 
-.container-about {
+/* About */
+
+.container-about, .container-interests, .container-contact, .container-projects {
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
 }
 
 .bio {
-  /* max-width: 50%; */
-  flex-basis: 75%;
+  flex-basis: 60%;
 }
+
+/* Skills */
 
 .skills-copy {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+}
+
+.skills-copy:first-child {
+  margin-right: 15px;
+}
+.skills-copy:last-child {
+  margin-left: 15px;
 }
 
 .skills-copy > * {
@@ -119,14 +136,17 @@ i {
 .icons {
   list-style: none;
   display: flex;
+  padding-left: 0;
+}
+
+.icons-skills {
   flex-direction: row;
   justify-content: space-evenly;
   flex-wrap: wrap;
-  padding-left: 0;
   margin-bottom: 2em;
 }
 
-.icons li {
+.icons-skills li {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -143,10 +163,76 @@ li span {
   margin-top: 5px;
 }
 
+/* Projects */
+.container-projects {
+  flex-direction: column;
+}
+
+.single-project {
+  display: flex;
+  flex-direction: row;
+  margin: 50px 0px;
+}
+
+.single-project li {
+  list-style: none;
+  display: inline;
+}
+
+.project-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-right: 15px;
+}
+
+.project-info ul {
+  padding-left: 0;
+}
+
+/* Interests */
+
+.container-interests {
+  display: flex;
+  justify-content: center;
+}
+
+/* Contact */
+
+.container-contact {
+  flex-direction: column;
+  align-items: center;
+}
+
+.container-contact a {
+  color: var(--gold2);
+}
+
+.icons-contact li a {
+  color: var(--lightgold);
+}
+
+.icons-contact li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+}
+
+footer {
+  text-align: center;
+}
+
+/* Media Queries */
+
 @media only screen and (max-width: 800px) {
   .bio{
     flex-basis: 100%;
-  } 
+  }
+  .single-project {
+    flex-direction: column;
+  }
 }
 
 @media only screen and (max-width: 512px) {

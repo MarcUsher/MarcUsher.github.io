@@ -11,7 +11,7 @@ export default function Hero() {
             </div>
             <div>
                 <div className='border profile-border'>
-                <img src={profile} alt="Headshot of Marc in black and white" className="profile" />
+                    <img src={profile} alt="Headshot of Marc in black and white" className="profile" />
                 </div>
             </div>
         </div>

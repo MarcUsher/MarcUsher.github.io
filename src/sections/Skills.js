@@ -7,7 +7,7 @@ export default function Skills() {
       <div className='container container-skills'>
         <h2>SKILLS</h2>
         <div className='skills-logos'>
-          <ul className='icons'>
+          <ul className='icons icons-skills'>
             <li>
               <i class="fa-brands fa-html5"></i>
               <span>HTML5</span>
@@ -76,25 +76,25 @@ export default function Skills() {
         </div>
         <div className='skills-copy'>
           <div>
-            <h4>Front End:</h4>
+            <h3>Front End:</h3>
             <p>HTML5, CSS3, JavaScript, jQuery, React, AJAX</p>
-            <h4>Back End:</h4>
+            <h3>Back End:</h3>
             <p>Node.js, Express, Mongoose, Python, Django</p>
-            <h4>Databases:</h4>
+            <h3>Databases:</h3>
             <p>MongoDB, PostgreSQL</p>
-            <h4>Tools:</h4>
+            <h3>Tools:</h3>
             <p>Git, GitHub, Command Line, VS Code, Heroku, Trello, ClickUp, Jira, Postman</p>
           </div>
           <div>
-            <h4>Methodologies:</h4>
+            <h3>Methodologies:</h3>
             <p>MVC/MVT Patterns, OOP, Test-Driven Development, RESTful web services, CRUD services, Authentication/Authorisation, Agile, ERDs, Pair-programming, Responsive Design, User Stories</p>
-            <h4>Design:</h4>
+            <h3>Design:</h3>
             <p>Figma, Wireframing, Adobe Creative Suite</p>
-            <h4>Analytics:</h4>
+            <h3>Analytics:</h3>
             <p>Google Analytics, Tag Manager, Data Studio</p>
-            <h4>Languages:</h4>
+            <h3>Languages:</h3>
             <p>French (fluent), Mandarin Chinese (intermediate), Spanish (basic)</p>
-            <h4>Soft & Professional:</h4>
+            <h3>Soft & Professional:</h3>
             <p>Communication, Collaboration, Adaptability, Fast learner, Self-motivation, Project Management, Strategic Planning, Stakeholder Management</p>
           </div>
         </div>
