@@ -6,7 +6,8 @@
         "links": [
             {"type": "app", "url": "https://gatriptips.herokuapp.com/"},
             {"type": "github", "url": "https://github.com/MarcUsher/ga-sei-project4-backend"}
-        ]
+        ],
+        "image": "./images/triptips-01.png"
     },
     {
         "title": "Cake Sera Sera",
@@ -15,7 +16,8 @@
         "links": [
             {"type": "app", "url": "https://cakeprojectapp.herokuapp.com/"},
             {"type": "github", "url": "https://github.com/MarcUsher/ga-sei-project3"}
-        ]
+        ],
+        "image": "./images/cakes-01.png"
     },
     {
         "title": "London Teams",
@@ -24,15 +26,17 @@
         "links": [
             {"type": "app", "url": "https://londonteams.herokuapp.com/"},
             {"type": "github", "url": "https://github.com/MarcUsher/ga-sei-project2"}
-        ]
+        ],
+        "image": "./images/teams.png"
     },
     {
         "title": "Push Fight",
-        "description": "A fully front-end single-page game built with HTML, CSS (including Flexbox), JavaScript and jQuery which developed my skills and taught me to read and understand documentation",
+        "description": "A fully front-end single-page game built with HTML, CSS (including Flexbox), JavaScript and jQuery which developed my skills and taught me to read and understand documentation.",
         "stack": ["HTML5", "CSS3", "JavaScript", "jQuery"],
         "links": [
             {"type": "app", "url": "https://marcusher.github.io/ga-sei-project1/"},
             {"type": "github", "url": "https://github.com/MarcUsher/ga-sei-project1"}
-        ]
+        ],
+        "image": "./images/game.png"
     }
 ]

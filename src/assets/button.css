@@ -7,7 +7,7 @@
 }
 
 .button {
-	max-width: 15%;
+	max-width: 20%;
 }
 
 a.animated-button:link, a.animated-button:visited {
@@ -20,7 +20,6 @@ a.animated-button:link, a.animated-button:visited {
 	font-weight: bold;
 	text-align: center;
 	text-decoration: none;
-	text-transform: uppercase;
 	overflow: hidden;
 	letter-spacing: .08em;
 	border-radius: 0;
@@ -44,35 +43,15 @@ a.animated-button:link:after, a.animated-button:visited:after {
 	transition: all 0.75s ease 0s;
 }
 a.animated-button:link:hover, a.animated-button:visited:hover {
-	color: #FFF;
+	color: var(--lightgold);
 	text-shadow: none;
 }
 a.animated-button:link:hover:after, a.animated-button:visited:hover:after {
 	height: 450%;
 }
-a.animated-button:link, a.animated-button:visited {
-	position: relative;
-	display: block;
-	margin: 30px auto 0;
-	padding: 14px 15px;
-	color: #fff;
-	font-size:14px;
-	border-radius: 0;
-	font-weight: bold;
-	text-align: center;
-	text-decoration: none;
-	text-transform: uppercase;
-	overflow: hidden;
-	letter-spacing: .08em;
-	text-shadow: 0 0 1px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(0, 0, 0, 0.2);
-	-webkit-transition: all 1s ease;
-	-moz-transition: all 1s ease;
-	-o-transition: all 1s ease;
-	transition: all 1s ease;
-}
 
 a.animated-button {
-	color: #fff;
+	color: var(--lightgold);
 	cursor: pointer;
 	display: block;
 	position: relative;

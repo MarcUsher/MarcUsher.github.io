@@ -4,7 +4,7 @@ export default function About() {
   return (
     <section className="about">
       <div className="container container-about">
-        <div className='bio'>
+        <div className='single-column'>
           <h2>ABOUT ME</h2>
           <p>My passion for digital innovation led me to work as a Digital Marketer at internationally-renowned institutions for over eight years, where I successfully led and delivered large-scale projects.</p>
 

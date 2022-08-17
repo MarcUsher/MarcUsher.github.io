@@ -1,6 +1,6 @@
 import React from 'react'
 import Button from '../components/ui/Button'
-import profile from '../assets/profile-image.jpg'
+import profile from '../assets/images/profile-image.jpg'
 
 export default function Project(props) {
 
@@ -23,8 +23,8 @@ export default function Project(props) {
         </ul>
         {links}
       </div>
-      <div className='border project-image'>
-        <img src={profile} alt="Headshot of Marc in black and white" className="profile" />
+      <div className='project-image'>
+        <img src={props.image} alt={props.title + " App Screenshot"} className="image" />
       </div>
     </>
   )

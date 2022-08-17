@@ -13,18 +13,18 @@ export default function App() {
 
   return (
     <div className='page-body'>
-      <a name="home"></a>
+      <a className='anchor' name="home"></a>
       <Navbar />
       <Hero />
-      <a name="about"></a>
+      <a className='anchor' name="about"></a>
       <About />
-      <a name="skills"></a>
+      <a className='anchor' name="skills"></a>
       <Skills />
-      <a name="projects"></a>
+      <a className='anchor' name="projects"></a>
       <Projects />
-      <a name="interests"></a>
+      <a className='anchor' name="interests"></a>
       <Interests />
-      <a name="contact"></a>
+      <a className='anchor' name="contact"></a>
       <Contact />
       <Footer />
     </div>
