@@ -5,7 +5,7 @@ export default function Navbar() {
   const [isActive, setIsActive] = useState(false);
 
   const handleClick = event => {
-    event.currentTarget.classList.toggle('active');
+    // event.currentTarget.classList.toggle('active');
     setIsActive(current => !current);
   };
 
@@ -15,13 +15,13 @@ export default function Navbar() {
             <a href='#home'>MARC USHER</a>
         </div>
         <ul className={isActive ? 'nav-menu active' : 'nav-menu'} onClick={handleClick}>
-            <li><a href='#about'>About</a></li>
-            <li><a href='#skills'>Skills</a></li>
-            <li><a href='#projects'>Projects</a></li>
-            <li><a href='#interests'>Interests</a></li>
-            <li><a href='#contact'>Contact</a></li>
+            <li onClick={handleClick}><a href='#about'>About</a></li>
+            <li onClick={handleClick}><a href='#skills' onClick={handleClick}>Skills</a></li>
+            <li onClick={handleClick}><a href='#projects' onClick={handleClick}>Projects</a></li>
+            <li onClick={handleClick}><a href='#interests' onClick={handleClick}>Interests</a></li>
+            <li onClick={handleClick}><a href='#contact' onClick={handleClick}>Contact</a></li>
         </ul>
-        <div className='hamburger' onClick={handleClick}>
+        <div className={isActive ? 'hamburger active' : 'hamburger'} onClick={handleClick}>
           <span className='bar'></span>
           <span className='bar'></span>
           <span className='bar'></span>

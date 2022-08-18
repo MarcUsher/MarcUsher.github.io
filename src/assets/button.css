@@ -1,11 +1,3 @@
-:root {
-	--black: #1C1C1C;
-	--blue: #12859C;
-	--gold: #AF9221;
-	--gold2: #CAAA2E;
-	--lightgold: #FFF3CD;
-}
-
 .button {
 	max-width: 20%;
 }
