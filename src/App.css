@@ -23,7 +23,7 @@ body {
 .page-body {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0 15px;
+  padding: 0 20px;
 }
 
 a {
@@ -285,6 +285,10 @@ footer {
 
   .container-hero {
     flex-direction: column;
+  }
+
+  .hero-copy {
+    margin-bottom: 40px;
   }
 
   .skills-copy{
