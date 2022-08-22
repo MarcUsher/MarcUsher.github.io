@@ -117,7 +117,9 @@ nav {
 }
 
 .border {
-  border: 2px solid var(--gold2);
+  border: 1px solid var(--gold2);
+  outline: 2px solid var(--gold2); 
+  outline-offset: 7px; 
   padding: 7px;
 }
 
