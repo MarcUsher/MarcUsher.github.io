@@ -9,7 +9,7 @@ export default function Hero() {
                 <h1>Hi, I'm Marc Usher</h1>
                 <h4>I'm a Junior Full Stack Software Engineer</h4>
             </div>
-            <div>
+            <div className='profile-image-container'>
                 <div className='border profile-border'>
                     <img src={profile} alt="Headshot of Marc in black and white" className="profile-image" />
                 </div>
