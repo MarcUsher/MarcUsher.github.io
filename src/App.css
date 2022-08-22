@@ -371,10 +371,6 @@ footer {
 
 @media only screen and (max-width: 512px) {
 
-  .page-body {
-    min-width: 100vw;
-  }
-
   .skills-copy{
     flex-wrap: wrap;
   }
