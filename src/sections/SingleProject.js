@@ -13,6 +13,9 @@ export default function Project(props) {
 
   return (
     <>
+      <div className='border project-border'>
+        <img src={props.image} alt={props.title + " App Screenshot"} className="project-image" />
+      </div>
       <div className='project-info'>
         <h3>{props.title}</h3>
         <p>{props.description}</p>
@@ -21,9 +24,6 @@ export default function Project(props) {
           {allStack}
         </ul>
         {links}
-      </div>
-      <div className='border project-border'>
-        <img src={props.image} alt={props.title + " App Screenshot"} className="project-image" />
       </div>
     </>
   )

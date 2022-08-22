@@ -45,14 +45,6 @@ a.anchor {
   visibility: hidden;
 }
 
-/* button {
-  background-color: var(--gold2);
-}
-
-button a {
-  color: var(--black);
-} */
-
 
 /* Navigation */
 
@@ -62,7 +54,7 @@ nav {
   align-items: center;
   position: sticky;
   top: 0;
-  /* z-index: 10; */
+  z-index: 10;
   background-color: #1c1c1cbd;
   width: 100%;
 }
@@ -79,6 +71,7 @@ nav {
 
 .nav-logo {
   font-size: 1.5rem;
+  z-index: 10;
 }
 
 .nav-menu a {
@@ -93,6 +86,7 @@ nav {
 .hamburger {
   display: none;
   cursor: pointer;
+  z-index: 10;
 }
 
 .bar {
@@ -119,20 +113,19 @@ nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  flex-wrap: wrap;
   width: 100%;
 }
 
 .border {
   border: 2px solid var(--gold2);
   padding: 7px;
-  max-width: 400px;
-  max-height: 400px;
 }
 
-.profile {
-  object-fit: cover;
-  max-width: 100%;
+.profile-image {
+  /* object-fit: cover; */
+  /* max-width: 100%; */
+  width: 400px;
+  height: 400px;
 }
 
 /* About & Skills */
@@ -223,7 +216,8 @@ li span {
 
 .single-project {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  align-items: center;
   /* flex-wrap: wrap; */
   margin: 50px 0px;
 }
@@ -245,14 +239,14 @@ li span {
   padding-left: 0;
 }
 
-.project-image {
-  object-fit: cover;
-  max-width: 100%;
+.project-border {
+  max-width: 50%;
+  margin-bottom: 20px;
 }
 
-/* Interests */
-
-
+.project-image {
+  max-width: 100%;
+}
 
 /* Contact */
 
@@ -287,6 +281,10 @@ footer {
 
   .page-body {
     max-width: 800px;
+  }
+
+  .container-hero {
+    flex-direction: column;
   }
 
   .skills-copy{
@@ -329,6 +327,7 @@ footer {
     background-color: var(--black);
   }
 
+
   .nav-logo{
     margin: 10px 0;
   }
@@ -336,8 +335,8 @@ footer {
   .nav-menu{
     position:fixed;
     background-color: var(--black);
-    left: -150%;
-    top: 55px;
+    /* left: -150%; */
+    top: -150%;
     gap: 0;
     flex-direction: column;
     width: 100%;
@@ -350,9 +349,19 @@ footer {
   }
 
   .nav-menu.active {
+    top: 55px;
     left: 0;
     padding: 0;
     margin: 0;
+    z-index: 5;
+  }
+
+  .icons-skills {
+    justify-content: center;
+  }
+
+  .project-border {
+    max-width: 80%;
   }
 }
 
@@ -372,6 +381,10 @@ footer {
 
   .icons {
     display: none;
+  }
+
+  .project-border {
+    max-width: 100%;
   }
 
 }
