@@ -12,9 +12,10 @@ import Contact from './sections/Contact'
 export default function App() {
 
   return (
+    <>
+    <Navbar />
     <div className='page-body'>
       <a className='anchor' name="home"></a>
-      <Navbar />
       <Hero />
       <a className='anchor' name="about"></a>
       <About />
@@ -28,5 +29,6 @@ export default function App() {
       <Contact />
       <Footer />
     </div>
+    </>
   )
 }
