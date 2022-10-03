@@ -7,7 +7,7 @@ export default function Hero() {
         <div className='container container-hero'>
             <div className='hero-copy'>
                 <h1>Hi, I'm Marc Usher</h1>
-                <h4>I'm a Junior Full Stack Software Engineer</h4>
+                <h4>I'm a Full-Stack Software Engineer</h4>
             </div>
             <div className='profile-image-container'>
                 <div className='border profile-border'>
