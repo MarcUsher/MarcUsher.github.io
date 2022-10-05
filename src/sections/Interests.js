@@ -8,7 +8,7 @@ export default function Interests() {
           <h2>INTERESTS</h2>
 
           <h3>Music</h3>
-          <p>Enthusiastically woeful but improving piano player. Metal and Jazz music fan from Black Sabbath and Moonsorrow to Sons of Khemet, Yazz Ahmed and Duke Ellington.</p>
+          <p>Enthusiastically woeful but improving piano player. Metal and Jazz music fan from Black Sabbath and Moonsorrow to Sons of Kemet, Yazz Ahmed and Duke Ellington.</p>
 
           <h3>Theatre</h3>
           <p>Avid theatre-goer. My top 5 plays in no particular order:</p>
