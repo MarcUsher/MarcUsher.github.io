@@ -28,6 +28,11 @@ body {
 
 a {
   text-decoration: none;
+  color: var(--gold2);
+}
+
+a:hover {
+  color: var(--lightgold);
 }
 
 .container {
@@ -124,15 +129,13 @@ nav {
 }
 
 .profile-image {
-  /* object-fit: cover; */
-  /* max-width: 100%; */
   max-width: 400px;
   max-height: 400px;
 }
 
 /* About & Skills */
 
-.about, .skills, .interests, .contact, .projects {
+.about, .skills, .interests, .contact, .projects, .experience {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -147,7 +150,7 @@ nav {
   justify-content: center;
 }
 
-.container-about, .container-interests {
+.container-about, .container-interests, .container-experience {
   display: flex;
   justify-content: flex-start;
 }
@@ -220,7 +223,6 @@ li span {
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* flex-wrap: wrap; */
   margin: 50px 0px;
 }
 
@@ -390,7 +392,7 @@ footer {
     display: block;
   }
 
-  .icons {
+  .icons-skills {
     display: none;
   }
 

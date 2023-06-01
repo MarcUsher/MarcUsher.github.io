@@ -6,13 +6,13 @@ export default function About() {
       <div className="container container-about">
         <div className='single-column'>
           <h2>ABOUT ME</h2>
-          <p>I’m a Full-Stack Software Engineer, recently retrained full-time with General Assembly where I led and worked in small teams to collaboratively build full-stack applications from the ground up. I interpreted project requirements from the original brief, planned out data structures and application architecture, and created and deployed full-stack applications in the MERN stack and in Django with a PostgreSQL database.</p>
+          <p>I’m a multilingual Software Engineer with professional software engineering experience and over 8 years experience in Digital Marketing at internationally-renowned HE institutions.</p>
 
-          <p>As a multilingual professional I've over 8 years experience in Digital Marketing at internationally-renowned HE institutions. I successfully directed and delivered large-scale projects, including project managing a complete institutional website redesign and relaunch, working closely with IT and our agency’s designers, developers and project team. I managed and grew the institution’s email databases for events and recruitment, and was the product owner for our website and new intranet platform.</p>
+          <p>Most recently, I developed public transport data analytics products at <b><a href="https://www.itoworld.com/">Ito World</a></b> for the Department for Transport and major transport clients as part of a full-stack engineering team, with a focus on Django and Ariadne (GraphQL) API back-end architecture connecting with PostgreSQL databases in Dockerized microservice-structured products.</p>
+
+          <p>I completed General Assembly's full-time immersive <a href='https://generalassemb.ly/education/software-engineering-immersive/london'>Software Engineering course</a> where I led and worked in small teams to collaboratively build full-stack applications from the ground up. I interpreted project requirements from the original brief, planned out data structures and application architecture, and created and deployed full-stack applications in the MERN stack and in Django with a PostgreSQL database.</p>
 
           <p>I bring a positive impact to internal teams and practices with my collaboration skills and attention to detail, while my strong stakeholder and project management skills enable successful internal and external relationships.</p>
-
-          <p>I’m excited to bring my experience to a new career as a Software Engineer, working in a collaborative team and learning from others to create innovative and impactful applications.</p>
         </div>
       </div>
     </section>

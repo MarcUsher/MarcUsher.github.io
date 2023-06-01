@@ -4,6 +4,7 @@ import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 import Hero from './sections/Hero'
 import About from './sections/About'
+import Experience from './sections/Experience'
 import Skills from './sections/Skills'
 import Projects from './sections/Projects'
 import Interests from './sections/Interests'
@@ -19,6 +20,8 @@ export default function App() {
       <Hero />
       <a className='anchor' name="about"></a>
       <About />
+      <a className='anchor' name="experience"></a>
+      <Experience />
       <a className='anchor' name="skills"></a>
       <Skills />
       <a className='anchor' name="projects"></a>
